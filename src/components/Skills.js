@@ -33,7 +33,7 @@ const Skills = ({ match }) => {
             </Row>
             <Row className="one-skill">
               <Col className="skills-image text-center">
-                <Figure>
+                <Figure className="asp-net">
                   <Figure.Image
                     width={171}
                     height={180}

@@ -167,6 +167,10 @@ ul {
   padding: 0px;
 }
 
+.asp-net {
+  padding-top: 33px;
+}
+
 .skills-details .list-group-item {
   background-color: white;
 }
