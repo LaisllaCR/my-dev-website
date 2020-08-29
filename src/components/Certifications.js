@@ -5,7 +5,7 @@ const Certifications = ({ match }) => {
   return (
     <div className="card certifications">
       <Row>
-        <Col lg={7}>
+        <Col>
           <Card.Body>
             <Row className="one-skill">
               <Col className="skills-image text-center">

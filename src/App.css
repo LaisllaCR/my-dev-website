@@ -1,10 +1,36 @@
 body {
-  background-repeat: no-repeat;
-  background-size: 100% 400px;
-  background-image: url("http://localhost:3000/_DSC7061.jpg");
   background-color: #efefef;
   display: flex;
   flex-direction: column;
+}
+.cover-image {
+  background-repeat: repeat;
+  background-image: url("http://localhost:3000/binary-code.png");
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  /*left: 0;*/
+  opacity: 0.5; /* for demo purpose  */
+}
+
+@media screen and (max-width: 768px) {
+  .cover-image {
+    visibility: hidden;
+  }
+}
+
+.section-profile .list-group {
+  flex-direction: row;
+}
+
+.certifications .h5,
+h5 {
+  font-size: 1.08rem;
+}
+
+.section-profile {
+  z-index: 9;
 }
 
 .profile {
@@ -189,11 +215,23 @@ ul {
 
 .footer {
   background-color: #07cb79;
-  margin-top: auto;
+  /* margin-top: auto;*/
   padding: 10px;
   color: white !important;
+  width: 100% !important;
+  padding-right: 0px !important;
 }
 
 .footer h1 {
   color: white !important;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
 }

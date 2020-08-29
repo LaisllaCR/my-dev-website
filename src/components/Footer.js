@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer text-center">
+    <footer className="footer text-center">
       <h1>Laislla Costa Ramos</h1>
       <p>Made with React</p>
       <div>
@@ -15,7 +15,7 @@ const Footer = () => {
           www.flaticon.com
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

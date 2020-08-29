@@ -41,7 +41,7 @@ const Profile = ({ match }) => {
           </Row>
         </Card.Body>
         <Card.Footer className="social">
-          <ul class="list-group list-group-horizontal-sm  justify-content-center">
+          <ul class="list-group list-group-horizontal-lg  justify-content-center">
             <li class="list-group-item">
               <a href="https://www.linkedin.com/in/laisllacr/">
                 <i class="fab fa-linkedin fa-2x"></i>

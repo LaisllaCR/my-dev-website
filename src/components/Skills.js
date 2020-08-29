@@ -10,7 +10,7 @@ const Skills = ({ match }) => {
             <Card.Text className="skills-header-text">What I Can Do</Card.Text>
           </Card.Body>
         </Col>
-        <Col lg={6}>
+        <Col>
           <Card.Body>
             <Row className="one-skill">
               <Col className="skills-image text-center">

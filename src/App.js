@@ -10,8 +10,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <div className="content">
+    <div className="page-container">
+      <div className="content-wrap">
+        <div className="cover-image"></div>
         <Profile />
         <About />
         <Skills />
