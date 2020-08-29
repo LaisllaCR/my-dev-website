@@ -5,7 +5,7 @@ body {
 }
 .cover-image {
   background-repeat: repeat;
-  background-image: url("http://localhost:3000/binary-code.png");
+  background-image: url("./images/binary-code.png");
   width: 100%;
   height: 350px;
   position: absolute;
