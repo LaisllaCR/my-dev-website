@@ -9,6 +9,20 @@ const Footer = () => {
         Icons made by{" "}
         <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
           Freepik
+        </a>
+        ,{" "}
+        <a
+          href="https://www.flaticon.com/authors/alfredo-hernandez"
+          title="Alfredo Hernandez"
+        >
+          Alfredo Hernandez
+        </a>
+        ,{" "}
+        <a
+          href="https://www.flaticon.com/br/autores/vitaly-gorbachev"
+          title="Vitaly Gorbachev"
+        >
+          Vitaly Gorbachev
         </a>{" "}
         from{" "}
         <a href="https://www.flaticon.com/" title="Flaticon">

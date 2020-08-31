@@ -1,8 +1,31 @@
+@media screen and (max-width: 768px) {
+  .cover-image {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 80%;
+  }
+}
+
 body {
   background-color: #efefef;
   display: flex;
   flex-direction: column;
 }
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+  position: relative;
+}
+
 .cover-image {
   background-repeat: repeat;
   background-image: url("./images/binary-code.png");
@@ -14,13 +37,17 @@ body {
   opacity: 0.5; /* for demo purpose  */
 }
 
-@media screen and (max-width: 768px) {
-  .cover-image {
-    visibility: hidden;
-  }
+.profile {
+  margin-top: 150px !important;
+}
+.card {
+  /*display: table;*/
+  margin: 0 auto;
+  padding: 0px;
+  z-index: 9;
 }
 
-.section-profile .list-group {
+.social .list-group {
   flex-direction: row;
 }
 
@@ -29,27 +56,10 @@ h5 {
   font-size: 1.08rem;
 }
 
-.section-profile {
-  z-index: 9;
-}
-
-.profile {
-  margin-top: 150px !important;
-}
 .skills,
 .certifications,
 .contact {
   margin-top: 50px !important;
-}
-.card {
-  width: 940px;
-  display: table;
-  margin: 0 auto;
-  padding: 0px;
-}
-
-.section-profile {
-  width: 100%;
 }
 
 .social {
@@ -108,9 +118,7 @@ ul {
   padding-top: 10px;
 }
 .profile-list .title {
-  display: block;
-  width: 120px;
-  float: left;
+  text-align: left;
   color: #333333;
   font-size: 12px;
   font-weight: 700;
@@ -118,12 +126,8 @@ ul {
   text-transform: uppercase;
 }
 
-.profile-list .cont {
-  display: block;
-  margin-left: 125px;
-}
-
 .text-body {
+  text-align: left;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -226,12 +230,17 @@ ul {
   color: white !important;
 }
 
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+footer {
+  width: 100%;
+  background-color: #07cb79;
 }
 
-.content-wrap {
-  flex: 1;
+.image-skill {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.skills-column {
+  padding-top: 40px;
 }
