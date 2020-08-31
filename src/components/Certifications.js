@@ -5,7 +5,11 @@ const Certifications = ({ match }) => {
   return (
     <div className="card shadow-sm p-3 mb-5 bg-white">
       <Row>
-        <Col className="skills-column">
+        <Col
+          className="skills-column"
+          xs={{ span: 12, order: 2 }}
+          md={{ span: 6, order: 1 }}
+        >
           <Card.Body>
             <Row className="one-skill">
               <Col sm={12} md={6} lg={4} className="skills-image text-center">
@@ -82,7 +86,12 @@ const Certifications = ({ match }) => {
             </Row>
           </Card.Body>
         </Col>
-        <Col lg={6} md={5} sm={12}>
+        <Col
+          lg={6}
+          sm={12}
+          xs={{ span: 12, order: 1 }}
+          md={{ span: 6, order: 2 }}
+        >
           <Card.Body className="card-body-skills">
             <Card.Text className="skills-header-text">Certifications</Card.Text>
           </Card.Body>
